@@ -1,0 +1,10 @@
+#ifndef DEMO_CONFIG_H_
+#define DEMO_CONFIG_H_
+
+#cmakedefine VAR1 @VAR1@
+#cmakedefine VAR2 ${VAR2}
+#cmakedefine VAR3 @VAR3@
+#cmakedefine VAR4 @VAR4@
+#cmakedefine VAR5 "@VAR5@"
+
+#endif  // DEMO_CONFIG_H_
